@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+int r,x, n,digitscount=0;
+printf("Enter ur desired number:");
+scanf("%d", &n);
+digitscount=log10(n)+1;
+if(digitscount<=2)
+{
+printf("-1");
+}
+else 
+{
+r=n/10;
+x=r%10;
+printf("%d",x);
+}
+}
+
