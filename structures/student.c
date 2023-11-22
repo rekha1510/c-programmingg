@@ -2,7 +2,7 @@
 struct student 
 {
 char name[100];
-long int  id;
+ long int  id;
 float weight;
 float height;
 char gender[100];
